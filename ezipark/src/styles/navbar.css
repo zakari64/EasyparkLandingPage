@@ -8,6 +8,9 @@ button.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.
 .MuiTypography-root.MuiTypography-h6.MuiTypography-noWrap.css-h7cdpm-MuiTypography-root {
     color: black;
 }
+.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root{
+    color : black 
+}
 @media (min-width: 1536px) { 
 .MuiContainer-root.MuiContainer-maxWidthXl.css-19r6kue-MuiContainer-root {
     max-width: none;

@@ -15,7 +15,7 @@ import navbar from '../styles/navbar.css';
 import garage from '../assets/images/garage.png';
 import user from '../assets/images/profile.png'
 
-const pages = ['Products', 'Pricing', 'Blog'];
+const pages = ['Home', 'Services', 'Contact Us' , 'About Us'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 const ResponsiveAppBar = () => {

@@ -11,7 +11,7 @@ width : 30% ;
 .testimonial .overlay{
     width: 100%;
     height: 100%;
-    background:rgba(75, 128, 243, 0.84);
+    background:rgba(114, 159, 255, 0.74);
 } 
 
 .testimonial .container .contenu{
@@ -48,7 +48,7 @@ width : 30% ;
     font-size: 16px;
     font-weight: normal;
     margin-top: 20px;
-    color: #6c757d;
+    color: #ffffff;
 }
 .owl-theme .owl-nav [class*='owl-'] {
     display: none;

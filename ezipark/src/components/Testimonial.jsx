@@ -22,7 +22,7 @@ function Testimonial() {
         <section className="testimonial">
             <div className="overlay">
                 <div className="max-width">
-                    <div className="container">
+                    <div className="container"> 
 
                         <OwlCarousel options={options}>
                             <div className="contenu">
