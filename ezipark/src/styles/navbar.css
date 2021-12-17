@@ -1,0 +1,16 @@
+header.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation4.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionStatic.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+    background-color: #F8F9FA;
+}
+button.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButtonBase-root.css-1q39md6-MuiButtonBase-root-MuiButton-root {
+
+    color: black;
+}
+.MuiTypography-root.MuiTypography-h6.MuiTypography-noWrap.css-h7cdpm-MuiTypography-root {
+    color: black;
+}
+@media (min-width: 1536px) { 
+.MuiContainer-root.MuiContainer-maxWidthXl.css-19r6kue-MuiContainer-root {
+    max-width: none;
+}
+}
+

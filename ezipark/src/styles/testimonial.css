@@ -1,0 +1,68 @@
+.testimonial{
+    width: 100%;
+    height: 60vh;
+    margin-top: 100px;
+    background-image: url('../assets/images/s2.jpeg');
+    
+}
+.testimonial .img-testimonial img{
+width : 30% ;
+}
+.testimonial .overlay{
+    width: 100%;
+    height: 100%;
+    background:rgba(75, 128, 243, 0.84);
+} 
+
+.testimonial .container .contenu{
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.testimonial .container .contenu img{
+    width: 100px;
+    border-radius: 100%;
+}
+
+.testimonial .container .contenu .text{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.testimonial .container .contenu .nom{
+    font-family: "Hind", sans-serif;
+    color: white;
+    margin-top: 0px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.testimonial .container .contenu .domaine{
+    font-family: "Hind", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    color: #6c757d;
+}
+.owl-theme .owl-nav [class*='owl-'] {
+    display: none;
+}
+
+/*responsive*/
+@media(max-width: 976px){
+    .cours .container .title .title1{
+        font-size: 25px;
+        color: #0e1133;
+        text-transform: capitalize;
+        font-family: "Hind", sans-serif;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 50px;
+    }
+}

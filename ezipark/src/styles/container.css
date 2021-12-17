@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Outfit:wght@300&family=Roboto:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100;500&family=Noto+Sans+Display:wght@800&family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100;500&family=Noto+Sans+Display:wght@200;800&family=Outfit&display=swap');
+main {
+  display : flex ; 
+	flex-direction: column;
+	background-color: #e0fcf9;
+	padding : 10px 10px 20px 10px  ;
+  margin-top: 10px ;
+}
+
+.slogan {
+    width : 100% ;
+    margin-left: 0;
+
+} 
+.slogan .title  h1 {
+    text-align: center;
+    font-size: 55px ;
+    width : 100%; 
+    font-family: 'Noto Sans Display', sans-serif;
+    margin: auto;
+    letter-spacing: 1px ;
+}
+
+
+.slogan .txt-content {
+font-family: 'Noto Sans Display', sans-serif;
+font-size : 20px ;
+font-weight: 500;
+padding : 20px ;
+text-align: center;
+margin: auto;
+}
+
+
+.button-64 {
+    align-items: center;
+    background-image: linear-gradient(144deg,#bcfbff, #005fcc 50%,#0b00a3);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    margin : auto ;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  
+  .button-64:active,
+  .button-64:hover {
+    outline: 0;
+  }
+  
+  .button-64 span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+  }
+  
+  .button-64:hover span {
+    background: none;
+  }
+
+  @media (max-width: 768px) {
+    .slogan .title h1{
+      font-size:  26px ;
+      text-align: center;
+    }
+    .slogan .txt-content {
+      font-size:17px ;
+    }
+    .button-64 {
+      max-width : 80% ;
+    }
+  }
