@@ -4,6 +4,7 @@ import Navbar  from '../src/components/Navbar'
 import Container from '../src/components/Container'
 import Cards from '../src/components/Cards'
 import Testimonial from './components/Testimonial'
+import Contact from './components/Contact';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Container />
       <Cards />
       <Testimonial />
+      <Contact />
       </header>
     </div>
   );

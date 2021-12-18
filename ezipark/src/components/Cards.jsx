@@ -1,6 +1,8 @@
 import React from "react";
 import cards from "../styles/cards.css";
-import park from '../assets/images/parking-area.png'
+import money from '../assets/images/money-bag.png'
+import touch from '../assets/images/touchscreen.png'
+import dep from '../assets/images/depression.png'
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -18,7 +20,7 @@ function Cards() {
         <div className="card" data-aos="fade-down-right">
           <div className="container">
             <div className="img-container">
-              <img src={park} alt="wallet" />
+              <img src={money} alt="" />
             </div>
             <div className="txt-container">
               <h2>Save Money</h2>
@@ -30,7 +32,7 @@ function Cards() {
         <div className="card" data-aos="fade-down-right">
           <div className="container">
             <div className="img-container">
-              <img src={park} alt="like" />
+              <img src={dep} alt="" />
             </div>
             <div className="txt-container">
               <h2>Stress Less</h2>
@@ -42,7 +44,7 @@ function Cards() {
         <div className="card" data-aos="fade-down-right">
           <div className="container">
             <div className="img-container">
-              <img src={park} alt="watch" />
+              <img src={touch} alt="" />
             </div>
             <div className="txt-container">
               <h2>Save Time</h2>

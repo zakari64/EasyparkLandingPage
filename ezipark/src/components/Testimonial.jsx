@@ -18,7 +18,7 @@ function Testimonial() {
   };
 
   return (
-    <section className="testimonial">
+    <section id ="sec" className="testimonial">
       <div className="overlay">
         <div className="max-width">
           <div className="container">
