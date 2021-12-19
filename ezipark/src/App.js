@@ -5,6 +5,7 @@ import Container from '../src/components/Container'
 import Cards from '../src/components/Cards'
 import Testimonial from './components/Testimonial'
 import Contact from './components/Contact';
+import Footer from '../src/components/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Cards />
       <Testimonial />
       <Contact />
+      <Footer />
       </header>
     </div>
   );

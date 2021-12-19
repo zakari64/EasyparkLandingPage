@@ -3,13 +3,13 @@ import OwlCarousel from "react-owl-carousel2";
 import "react-owl-carousel2/lib/styles.css";
 import "react-owl-carousel2/src/owl.theme.default.css";
 import "../styles/testimonial.css";
-import park1 from "../assets/images/parkavatar.png";
+import dev from '../assets/images/development.png' 
 import park2 from "../assets/images/park2.png";
 import park3 from "../assets/images/parking.png";
 function Testimonial() {
   const options = {
     items: 1,
-    nav: true,
+    nav: true, 
     dots: false,
     rewind: true,
     autoplay: true,
@@ -24,9 +24,9 @@ function Testimonial() {
           <div className="container">
             <OwlCarousel options={options}>
               <div className="contenu">
-                <img src={park1} alt="" />
+                <img src={dev} alt="" />
                 <div className="text">
-                  “ Barmy loo sloshed porkiesdo with me down"
+                  “ A reliable and "
                 </div>
                 <div className="nom">Lorem, ipsum.</div>
                 <div className="domaine">Lorem, ipsum dolor.</div>
