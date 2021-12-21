@@ -1,5 +1,6 @@
 import react  from 'react';
 import OwlCarousel from 'react-owl-carousel2';
+import Login from './components/Login';
 import Navbar  from '../src/components/Navbar'
 import Container from '../src/components/Container'
 import Cards from '../src/components/Cards'
@@ -11,6 +12,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <Login />
       <Navbar />
       <Container />
       <Cards />
