@@ -1,20 +1,21 @@
 import React from 'react'
+import login from '../styles/login.css'
 
 function Login() {
     return (
-        <section className='login-page'>
-           <div className="login-area">
-               <form className='form-sec'> 
-                   <label id='1'>
-                       Username :
-                       <input type="text" className='usr' placeholder='Enter username ...'/>
+        <section>
+            <div className="login-area">
+               <form className="form-area">
+                   <label >
+                      Username :
+                      <input type="text" className="usr" />
                    </label>
-                   <label id='2'>
+                   <label>
                        Password :
-                       <input type="password" className='pwd' placeholder='Enter password' />
+                       <input type="password" className="pwd" />
                    </label>
                </form>
-           </div>
+            </div>
         </section>
     )
 }
