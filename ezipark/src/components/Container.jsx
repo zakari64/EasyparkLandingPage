@@ -8,7 +8,7 @@ function Container() {
     duration : 1000
   })
   return (
-    <main>
+    <main >
       <div className="slogan">
         <div className="title">
           <h1 data-aos="zoom-in-down">We make parking a lot easier with Parkeasy!</h1>

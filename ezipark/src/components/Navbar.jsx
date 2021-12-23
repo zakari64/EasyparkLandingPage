@@ -11,12 +11,16 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
+import { Link } from 'react-router-dom';
 import navbar from '../styles/navbar.css';
 import garage from '../assets/images/garage.png';
 import user from '../assets/images/profile.png'
 
-const pages = ['Home', 'Services', 'Contact Us' , 'About Us'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+const pages = [ 'Home', 'Services', 'Contact Us' , 'About Us' ];
+const settings = ['Profile', 'Account', 'Dashboard', <Link to="/login" >Logout</Link>];
+const style = {
+  textDecoration : 'none' 
+};
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);

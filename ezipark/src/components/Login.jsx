@@ -1,23 +1,27 @@
-import React from 'react'
-import login from '../styles/login.css'
+import React from "react";
+import login from "../styles/login.css";
+import {Link} from 'react-router-dom'; 
 
 function Login() {
-    return (
-        <section>
-            <div className="login-area">
-               <form className="form-area">
-                   <label >
-                      Username :
-                      <input type="text" className="usr" />
-                   </label>
-                   <label>
-                       Password :
-                       <input type="password" className="pwd" />
-                   </label>
-               </form>
-            </div>
-        </section>
-    )
+  return (
+    <section className="login">
+      <div className="background">
+        <div className="shape"></div>
+        <div className="shape"></div>
+      </div>
+      <form>
+        <h3>Login Here</h3>
+
+        <label for="username">Username</label>
+        <input type="text" placeholder="Email or Phone" id="username" />
+        <label for="password">Password</label>
+        <input type="password" placeholder="Password" id="password" />
+      <Link to="/HomePage">
+      <button>Log In</button>
+      </Link>
+      </form>
+    </section>
+  );
 }
 
-export default Login
+export default Login;
