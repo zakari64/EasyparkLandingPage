@@ -17,7 +17,7 @@ import garage from '../assets/images/garage.png';
 import user from '../assets/images/profile.png'
 
 const pages = [ 'Home', 'Services', 'Contact Us' , 'About Us' ];
-const settings = ['Profile', 'Account', 'Dashboard', <Link to="/login" >Logout</Link>];
+const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 const style = {
   textDecoration : 'none' 
 };
@@ -110,7 +110,7 @@ const ResponsiveAppBar = () => {
               </Button>
             ))}
           </Box>
-
+{/* 
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
@@ -139,7 +139,7 @@ const ResponsiveAppBar = () => {
                 </MenuItem>
               ))}
             </Menu>
-          </Box>
+          </Box> */}
         </Toolbar>
       </Container>
     </AppBar>

@@ -1,10 +1,10 @@
 import React from "react";
-import Navbar from "../components/Navbar";
-import Container from "../components/Container";
-import Cards from "../components/Cards"
-import Contact from "../components/Contact";
-import Testimonial from "../components/Testimonial"
-import Footer from "../components/Footer";
+import Navbar from "./Navbar";
+import Container from "./Container";
+import Cards from "./Cards"
+import Contact from "./Contact";
+import Testimonial from "./Testimonial"
+import Footer from "./Footer";
 
 function HomePage() {
   return (
@@ -12,7 +12,7 @@ function HomePage() {
       <Navbar />
       <Container />
       <Cards />
-      <Testimonial />
+      <Testimonial /> 
       <Contact />
       <Footer />
     </div>
