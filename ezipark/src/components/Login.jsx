@@ -13,9 +13,9 @@ function Login() {
         <h3>Login Here</h3>
 
         <label for="username">Username</label>
-        <input type="text" placeholder="Email or Phone" id="username" />
+        <input type="text" placeholder="Entrez user ..." id="username" />
         <label for="password">Password</label>
-        <input type="password" placeholder="Password" id="password" />
+        <input type="password" placeholder="Entrez pwd ..." id="password" />
         <Link to="/HomePage">
           <button className="btn">Log In</button>
         </Link>

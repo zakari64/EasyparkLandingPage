@@ -26,7 +26,7 @@ function Testimonial() {
               <div className="contenu">
                 <img src={dev} alt="" />
                 <div className="text">
-                  “ A reliable and "
+                  “ A reliable and loyal team"
                 </div>
                 <div className="nom">Lorem, ipsum.</div>
                 <div className="domaine">Lorem, ipsum dolor.</div>
@@ -34,15 +34,15 @@ function Testimonial() {
               <div className="contenu">
                 <img src={park2} alt="" />
                 <div className="text">
-                  “ Barmy loo sloshed porkiesdo with me down "{" "}
+                  “ Our history"
                 </div>
-                <div className="nom">Lorem, ipsum dolor.</div>
-                <div className="domaine">Lorem, ipsum.</div>
+                <div className="nom">Founded in 2010 with high goals</div>
+                <div className="domaine">We're trying to innovate in parking management</div>
               </div>
               <div className="contenu">
                 <img src={park3} alt="" />
                 <div className="text">
-                  “ Barmy loo sloshed porkiesdo with me down "{" "}
+                  “ Barmy loo sloshed porkiesdo with me down "
                 </div>
                 <div className="nom">Lorem, ipsum.</div>
                 <div className="domaine">Lorem, ipsum dolor.</div>
