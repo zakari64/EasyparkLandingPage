@@ -4,8 +4,10 @@ import "react-owl-carousel2/lib/styles.css";
 import "react-owl-carousel2/src/owl.theme.default.css";
 import "../styles/testimonial.css";
 import dev from '../assets/images/development.png' 
-import park2 from "../assets/images/park2.png";
-import park3 from "../assets/images/parking.png";
+import entreprise from "../assets/images/enterprise.png";
+import Kar from "../assets/images/avata.png";
+import park3 from "../assets/images/parking-area.png"
+
 function Testimonial() {
   const options = {
     items: 1,
@@ -26,21 +28,21 @@ function Testimonial() {
               <div className="contenu">
                 <img src={dev} alt="" />
                 <div className="text">
-                  “ A reliable and loyal team"
+                  “ Une équipe fiable et loyale"
                 </div>
-                <div className="nom">Lorem, ipsum.</div>
-                <div className="domaine">Lorem, ipsum dolor.</div>
+                <div className="nom">Notre équipe de devloppeurs</div>
+                <div className="domaine">Nos membres ont travaillé dur pour rendre possible ce projet</div>
               </div>
               <div className="contenu">
-                <img src={park2} alt="" />
+                <img src={entreprise} alt="" />
                 <div className="text">
-                  “ Our history"
+                  “Notre histoire "
                 </div>
-                <div className="nom">Founded in 2010 with high goals</div>
-                <div className="domaine">We're trying to innovate in parking management</div>
+                <div className="nom">Etablie en 2010 avec des grandes visions</div>
+                <div className="domaine">On essaye d'adopter un nouveau système de parking !</div>
               </div>
               <div className="contenu">
-                <img src={park3} alt="" />
+                <img src={Kar} alt="" />
                 <div className="text">
                   “ Barmy loo sloshed porkiesdo with me down "
                 </div>
