@@ -3,10 +3,11 @@ import OwlCarousel from "react-owl-carousel2";
 import "react-owl-carousel2/lib/styles.css";
 import "react-owl-carousel2/src/owl.theme.default.css";
 import "../styles/testimonial.css";
-import dev from '../assets/images/development.png' 
-import entreprise from "../assets/images/enterprise.png";
-import Kar from "../assets/images/avata.png";
-import park3 from "../assets/images/parking-area.png"
+import dev from '../assets/images/programmer.png' 
+import dev2 from "../assets/images/programmer2.png";
+import design from "../assets/images/graphic-designer.png";
+import manager from "../assets/images/manager.png"
+import tester from '../assets/images/tester.png'
 
 function Testimonial() {
   const options = {
@@ -28,34 +29,42 @@ function Testimonial() {
               <div className="contenu">
                 <img src={dev} alt="" />
                 <div className="text">
-                  “ Une équipe fiable et loyale"
+                  “ Aouad Hajar "
                 </div>
-                <div className="nom">Notre équipe de devloppeurs</div>
-                <div className="domaine">Nos membres ont travaillé dur pour rendre possible ce projet</div>
+                <div className="nom">Notre programmer brillante</div>
+                <div className="domaine">Digne de plus de 10 ans d'experience en web Dev</div>
               </div>
               <div className="contenu">
-                <img src={entreprise} alt="" />
+                <img src={dev2} alt="" />
                 <div className="text">
-                  “Notre histoire "
+                  “Kouthar EL Farissi"
                 </div>
-                <div className="nom">Etablie en 2010 avec des grandes visions</div>
-                <div className="domaine">On essaye d'adopter un nouveau système de parking !</div>
+                <div className="nom">Notre Developper front-end</div>
+                <div className="domaine">Avec des idées impréssionanteet 6 ans d'experience</div>
               </div>
               <div className="contenu">
-                <img src={Kar} alt="" />
+                <img src={manager} alt="" />
                 <div className="text">
-                  “ Barmy loo sloshed porkiesdo with me down "
+                  “ Med Amine Temmar"
                 </div>
-                <div className="nom">Lorem, ipsum.</div>
-                <div className="domaine">Lorem, ipsum dolor.</div>
+                <div className="nom">Notre dirigeant</div>
+                <div className="domaine">Plud de 15 ans en tant que chef de projet </div>
               </div>
               <div className="contenu">
-                <img src={park3} alt="" />
+                <img src={design} alt="" />
                 <div className="text">
-                  “ Barmy loo sloshed porkiesdo with me down ”
+                  “ Zakaria Benabbes”
                 </div>
-                <div className="nom">Lorem, ipsum.</div>
-                <div className="domaine">Lorem, ipsum dolor.</div>
+                <div className="nom">Le concepteur de toute l'application </div>
+                <div className="domaine">Des compétences extra-ordinaires en UI/UX design</div>
+              </div>
+              <div className="contenu">
+                <img src={tester} alt="" />
+                <div className="text">
+                  “ Hammouti Soufiane”
+                </div>
+                <div className="nom">Notre testeur et deboggeur</div>
+                <div className="domaine">Chasseur d'erreurs </div>
               </div>
             </OwlCarousel>
           </div>
