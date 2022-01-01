@@ -12,7 +12,7 @@ function Cards() {
   });
 
   return (
-    <section className="cards">
+    <section className="cards" id="sect2">
       <div className="title" data-aos="fade-down-right">
         <h1>What we provide you with </h1>
       </div>

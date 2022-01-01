@@ -1,25 +1,49 @@
-import * as React from 'react';
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
-import Menu from '@mui/material/Menu';
-import MenuIcon from '@mui/icons-material/Menu';
-import Container from '@mui/material/Container';
-import Avatar from '@mui/material/Avatar';
-import Button from '@mui/material/Button';
-import Tooltip from '@mui/material/Tooltip';
-import MenuItem from '@mui/material/MenuItem';
-import navbar from '../styles/navbar.css';
-import { NavLink } from 'react-router-dom';
-import garage from '../assets/images/garage.png';
-import user from '../assets/images/profile.png'
+import * as React from "react";
+import AppBar from "@mui/material/AppBar";
+import Box from "@mui/material/Box";
+import Toolbar from "@mui/material/Toolbar";
+import IconButton from "@mui/material/IconButton";
+import Typography from "@mui/material/Typography";
+import Menu from "@mui/material/Menu";
+import MenuIcon from "@mui/icons-material/Menu";
+import Container from "@mui/material/Container";
+import Avatar from "@mui/material/Avatar";
+import Button from "@mui/material/Button";
+import {HashLink} from 'react-router-hash-link'
+import { Link } from "react-router-dom";
+import Tooltip from "@mui/material/Tooltip";
+import MenuItem from "@mui/material/MenuItem";
+import navbar from "../styles/navbar.css";
+import garage from "../assets/images/garage.png";
+import user from "../assets/images/profile.png";
 
-const pages = [ <NavLink to="/container">Home</NavLink>, <NavLink to="/cards">Services</NavLink>, <NavLink to="/testimonial">About Us</NavLink> ,<NavLink to="/contact">Contact Us</NavLink> ];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+
+const pages = [
+  <HashLink smooth to={'/container#sect1'} style={{ textDecoration: "none", color: "black" }}>
+    Home
+  </HashLink>,
+    <HashLink smooth to={'/cards#sect2'} style={{ textDecoration: "none", color: "black" }}>
+    Services
+  </HashLink>,
+    <HashLink smooth to={'/testimonial#sect3'} style={{ textDecoration: "none", color: "black" }}>
+    About Us
+  </HashLink>,
+    <HashLink smooth to={'/contact#sect4'} style={{ textDecoration: "none", color: "black" }}>
+    Contact Us
+  </HashLink>,
+
+  // <NavLink to="/testimonial" className={({ isActive }) => (isActive ? 'active' : 'inactive')}
+  // style={{ textDecoration: "none", color: "black" }}>
+  //   About Us
+  // </NavLink>,
+
+
+
+
+];
+const settings = ["Profile", "Account", "Dashboard", "Logout"];
 const style = {
-  textDecoration : 'none' 
+  textDecoration: "none",
 };
 
 const ResponsiveAppBar = () => {
@@ -49,12 +73,12 @@ const ResponsiveAppBar = () => {
             variant="h6"
             noWrap
             component="div"
-            sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
+            sx={{ mr: 2, display: { xs: "none", md: "flex" } }}
           >
             <img src={garage} />
           </Typography>
-		
-          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+
+          <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
               size="large"
               aria-label="account of current user"
@@ -69,18 +93,18 @@ const ResponsiveAppBar = () => {
               id="menu-appbar"
               anchorEl={anchorElNav}
               anchorOrigin={{
-                vertical: 'bottom',
-                horizontal: 'left',
+                vertical: "bottom",
+                horizontal: "left",
               }}
               keepMounted
               transformOrigin={{
-                vertical: 'top',
-                horizontal: 'left',
+                vertical: "top",
+                horizontal: "left",
               }}
               open={Boolean(anchorElNav)}
               onClose={handleCloseNavMenu}
               sx={{
-                display: { xs: 'block', md: 'none' },
+                display: { xs: "block", md: "none" },
               }}
             >
               {pages.map((page) => (
@@ -94,23 +118,22 @@ const ResponsiveAppBar = () => {
             variant="h6"
             noWrap
             component="div"
-            sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
+            sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}
           >
-                       <img src={garage} />
-
+            <img src={garage} />
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+          <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'black', display: 'block' }}
+                sx={{ my: 2, color: "black", display: "block" }}
               >
                 {page}
               </Button>
             ))}
           </Box>
-{/* 
+          {/* 
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
