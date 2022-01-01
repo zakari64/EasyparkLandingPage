@@ -11,12 +11,12 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
-import { Link } from 'react-router-dom';
 import navbar from '../styles/navbar.css';
+import { NavLink } from 'react-router-dom';
 import garage from '../assets/images/garage.png';
 import user from '../assets/images/profile.png'
 
-const pages = [ 'Home', 'Services', 'Contact Us' , 'About Us' ];
+const pages = [ <NavLink to="/container">Home</NavLink>, <NavLink to="/cards">Services</NavLink>, <NavLink to="/testimonial">About Us</NavLink> ,<NavLink to="/contact">Contact Us</NavLink> ];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 const style = {
   textDecoration : 'none' 

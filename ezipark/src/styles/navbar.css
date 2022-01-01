@@ -11,10 +11,18 @@ button.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.
 .MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root{
     color : black 
 }
-.Mui-Box .css-hip9hq-MuiPaper-root-MuiAppBar-root {
+.MuiBox-root.css-1t6c9ts {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    margin: auto;
+    width: 50%;
 }
+.MuiBox-root.css-1t6c9ts button {
+    margin: auto;
+    display:block ;
+}
+
+
 @media (min-width: 1536px) { 
 .MuiContainer-root.MuiContainer-maxWidthXl.css-19r6kue-MuiContainer-root {
     max-width: none;

@@ -1,23 +1,28 @@
 import react from "react";
 import OwlCarousel from "react-owl-carousel2";
 import HomePage from "./components/HomePage";
+import Cards from "./components/Cards";
+import Contact from "./components/Contact";
 import { BrowserRouter as Router , Switch , Route } from "react-router-dom";
-import Login from './components/Login' ;
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Testimonial from "./components/Testimonial";
+import Container from "./components/Container";
+
+
 function App() {
   return (
     <Router>
-
-      <div className="App">
+      <div>
         <Switch>
-
-        <Route exact path="/" component={Login} />
-        <Route path="/Homepage" component={HomePage} />
-        
+          <Route exact path="/"  component={HomePage} />
+          <Route path="/container" component={Container} />
+          <Route path="/cards" component={Cards} />
+          <Route path="/testimonial" component={Testimonial} />
+          <Route path="/contact" component={Contact} />
         </Switch>
-
       </div>
-      </Router>
+    </Router>
+      
 
     
   );
