@@ -7,7 +7,7 @@ import Button from "@mui/material/Button";
 
 function Contact() {
   return (
-    <section className="contact">
+    <section id="sect4" className="contact">
       <Box
         component="form"
         sx={{

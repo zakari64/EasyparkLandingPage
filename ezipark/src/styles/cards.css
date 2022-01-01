@@ -86,7 +86,7 @@
 	text-align: center;
 }
 .cards-content .card:hover {
-  background-color: #eff5fb;
+  background-color: #D7E6F0;
   border: none;
   cursor : pointer ;
   transition: 0.4s ease-in-out;
