@@ -9,7 +9,6 @@ import Footer from "./Footer";
 function HomePage() {
   return (
     <div>
-      <Navbar />
       <Container />
       <Cards />
       <Testimonial /> 

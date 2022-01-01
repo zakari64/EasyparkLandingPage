@@ -10,7 +10,6 @@ import Container from "@mui/material/Container";
 import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import {HashLink} from 'react-router-hash-link'
-import { Link } from "react-router-dom";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import navbar from "../styles/navbar.css";
@@ -19,26 +18,30 @@ import user from "../assets/images/profile.png";
 
 
 const pages = [
-  <HashLink smooth to={'/container#sect1'} style={{ textDecoration: "none", color: "black" }}>
+  
+  <li>
+  <HashLink  to={'/container#sect1'} style={{ textDecoration: "none", color: "black" }}>
     Home
-  </HashLink>,
-    <HashLink smooth to={'/cards#sect2'} style={{ textDecoration: "none", color: "black" }}>
+  </HashLink>
+  </li>
+, <li>
+ <HashLink  to={'/cards#sect2'} style={{ textDecoration: "none", color: "black" }}>
     Services
-  </HashLink>,
-    <HashLink smooth to={'/testimonial#sect3'} style={{ textDecoration: "none", color: "black" }}>
+  </HashLink>
+</li>,
+<li>
+<HashLink  to={'/testimonial#sect3'} style={{ textDecoration: "none", color: "black" }}>
     About Us
-  </HashLink>,
-    <HashLink smooth to={'/contact#sect4'} style={{ textDecoration: "none", color: "black" }}>
+  </HashLink>
+</li>,
+<li>
+<HashLink to={'/contact#sect4'} style={{ textDecoration: "none", color: "black" }}>
     Contact Us
-  </HashLink>,
+  </HashLink>
+</li>
+   ,
 
-  // <NavLink to="/testimonial" className={({ isActive }) => (isActive ? 'active' : 'inactive')}
-  // style={{ textDecoration: "none", color: "black" }}>
-  //   About Us
-  // </NavLink>,
-
-
-
+  
 
 ];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
