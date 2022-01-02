@@ -2,21 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100;500&family=Noto+Sans+Display:wght@800&family=Outfit&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100;500&family=Noto+Sans+Display:wght@200;800&family=Outfit&display=swap');
 main {
-  display : flex ; 
-	flex-direction: column;
-	background-color: #fafeff;
+  display : grid ; 
+  grid-template-columns: 1fr 1fr;
+  background-color: #ceeef7;
 	padding : 10px 10px 20px 10px  ;
-  margin-top: 10px ;
 }
 
-.slogan {
+.lefty {
     width : 100% ;
-    margin-left: 0;
+    margin : auto;
 
 } 
-.slogan .title  h1 {
+.lefty .title  h1 {
     text-align: center;
-    font-size: 55px ;
+    font-size: 35px ;
     width : 100%; 
     font-family: 'Noto Sans Display', sans-serif;
     margin: auto;
@@ -24,7 +23,7 @@ main {
 }
 
 
-.slogan .txt-content {
+.lefty .txt-content {
 font-family: 'Noto Sans Display', sans-serif;
 font-size : 20px ;
 font-weight: 500;
@@ -33,7 +32,16 @@ text-align: center;
 margin: auto;
 }
 
-
+.righty .img-are {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.righty .img-are img {
+width : 57% ;
+background: transparent;
+}
 .button-64 {
     align-items: center;
     background-image: linear-gradient(144deg,#bcfbff, #005fcc 50%,#0b00a3);
@@ -78,12 +86,22 @@ margin: auto;
   }
 
   @media (max-width: 768px) {
-    .slogan .title h1{
+    main {
+    display : flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap : 20px ;
+    }
+    .lefty .title h1{
       font-size:  26px ;
       text-align: center;
     }
-    .slogan .txt-content {
+    .lefty .txt-content {
       font-size:17px ;
+    }
+    .righty .img-are img {
+      width : 65%
     }
     .button-64 {
       max-width : 80% ;

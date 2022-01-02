@@ -9,7 +9,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
-import {HashLink} from 'react-router-hash-link'
+import { Link } from "react-router-dom";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import navbar from "../styles/navbar.css";
@@ -19,29 +19,23 @@ import user from "../assets/images/profile.png";
 
 const pages = [
   
-  <li>
-  <HashLink  to={'/container#sect1'} style={{ textDecoration: "none", color: "black" }}>
-    Home
-  </HashLink>
-  </li>
-, <li>
- <HashLink  to={'/cards#sect2'} style={{ textDecoration: "none", color: "black" }}>
-    Services
-  </HashLink>
-</li>,
-<li>
-<HashLink  to={'/testimonial#sect3'} style={{ textDecoration: "none", color: "black" }}>
-    About Us
-  </HashLink>
-</li>,
-<li>
-<HashLink to={'/contact#sect4'} style={{ textDecoration: "none", color: "black" }}>
-    Contact Us
-  </HashLink>
-</li>
-   ,
 
+  <Link  to={'/container'} style={{ textDecoration: "none", color: "black" }}>
+    Home
+  </Link>
   
+, 
+ <Link  to={'/cards'} style={{ textDecoration: "none", color: "black" }}>
+    Services
+  </Link>,
+
+<Link  to={'/testimonial'} style={{ textDecoration: "none", color: "black" }}>
+    About Us
+  </Link>,
+<Link to={'/contact'} style={{ textDecoration: "none", color: "black" }}>
+    Contact Us
+  </Link>
+   ,
 
 ];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
@@ -78,7 +72,7 @@ const ResponsiveAppBar = () => {
             component="div"
             sx={{ mr: 2, display: { xs: "none", md: "flex" } }}
           >
-            <img src={garage} />
+           <Link to="/" ><img src={garage} style={{width : "70%"}} /></Link>
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -121,11 +115,11 @@ const ResponsiveAppBar = () => {
             variant="h6"
             noWrap
             component="div"
-            sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}
+            sx={{ flexGrow: 1, display: { xs: "flex", md: "none" },flexDirection:"row-reverse" }}
           >
-            <img src={garage} />
+            <Link to="/" ><img src={garage} style={{width : "70%"}} /></Link>
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
+          <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" }  }}>
             {pages.map((page) => (
               <Button
                 key={page}

@@ -11,12 +11,12 @@ button.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.
 .MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root{
     color : black 
 }
-.MuiBox-root.css-1t6c9ts {
+/* /* .MuiBox-root.css-1t6c9ts {
     display: flex;
     flex-direction: row;
     margin: auto;
-    width: 50%;
-}
+    width: 50%; */
+
 .MuiBox-root.css-1t6c9ts button {
     margin: auto;
     display:block ;
