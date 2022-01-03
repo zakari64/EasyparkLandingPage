@@ -1,5 +1,5 @@
 .footer{
-    background-color: #e3f3ff;
+     background: radial-gradient(circle, rgba(214,192,255,1) 0%, rgba(255,255,255,0) 43%, rgba(255,255,255,0) 51%, rgba(254,254,254,0) 72%, rgba(255,255,255,0) 88%, rgba(255,255,255,0) 100%); 
     margin-top: 50px;
 }
 .footer .container .footer-content{
