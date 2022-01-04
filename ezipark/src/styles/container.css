@@ -4,8 +4,14 @@
 main {
   display : grid ; 
   grid-template-columns: 1fr 1fr;
-  background: linear-gradient(90deg, rgba(171,129,247,0.7903362028405112) 0%, rgba(255,255,255,0) 52%, rgba(255,255,255,0) 60%, rgba(255,255,255,0) 71%, rgba(255,255,255,0) 100%);   
+
+
+
+  background: linear-gradient(110deg, rgba(221,171,251,0.6965161064425771) 0%, rgba(221,171,251,0.469625350140056) 40%, rgba(221,171,251,0.3799894957983193) 49%, rgba(255,255,255,0.02984943977591037) 59%, rgba(243,248,251,0.04945728291316531) 66%, rgba(236,243,249,0.027048319327731107) 75%, rgba(251,252,254,0.03545168067226889) 84%, rgba(148,187,233,0.018644957983193322) 100%);
+ 
+ 
   padding : 10px 10px 20px 10px  ;
+
 }
 
 .lefty {
@@ -20,7 +26,7 @@ main {
     font-family: 'Noto Sans Display', sans-serif;
     margin: auto;
     letter-spacing: 1px ;
-}
+} 
 
 
 .lefty .txt-content {
@@ -45,7 +51,7 @@ border-radius: 15px;
 }
 .button-64 {
     align-items: center;
-    background-image: linear-gradient(144deg,#fef7ff, #caa2ff 50%,#c46cff);
+    background-image: linear-gradient(144deg,#f2dff5, #caa2ff 50%,#c46cff);
     border: 0;
     border-radius: 8px;
     box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;

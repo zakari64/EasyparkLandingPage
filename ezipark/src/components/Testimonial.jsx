@@ -48,7 +48,7 @@ function Testimonial() {
                   “ Med Amine Temmar"
                 </div>
                 <div className="nom">Notre dirigeant</div>
-                <div className="domaine">Plud de 15 ans en tant que chef de projet </div>
+                <div className="domaine">Plus de 15 ans en tant que chef de projet </div>
               </div>
               <div className="contenu">
                 <img src={design} alt="" />

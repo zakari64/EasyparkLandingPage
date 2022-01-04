@@ -42,7 +42,7 @@
 /* Responsive */ 
 
 @media (max-width : 768px) {
-    .contact .cnt {
+    .contact .cnt { 
         display : grid ;
         grid-template-columns: 1fr ;
         gap : 20px ;

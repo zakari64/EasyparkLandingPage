@@ -49,7 +49,7 @@ function Contact() {
               defaultValue="Telephone"
             />
             <div className="btn">
-              <Button variant="outlined" size="medium">
+              <Button variant="contained" style={{backgroundColor:'#ddabfb'}} size="medium">
                 Submit
               </Button>
             </div>
