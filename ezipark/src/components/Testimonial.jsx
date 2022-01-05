@@ -40,7 +40,7 @@ function Testimonial() {
                   “Kouthar EL Farissi"
                 </div>
                 <div className="nom">Notre Developper front-end</div>
-                <div className="domaine">Avec des idées impréssionanteet 6 ans d'experience</div>
+                <div className="domaine">Avec des idées impréssionanteet 16 ans d'experience</div>
               </div>
               <div className="contenu">
                 <img src={manager} alt="" />
